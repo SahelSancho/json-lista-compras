@@ -20,13 +20,13 @@ Acesse o repositório oficial deste projeto [clicando aqui](https://github.com/S
 
 2. Instale o NPM:
   
-  ```bash
-  npm install json-server
-  ```
+   ```bash
+   npm install json-server
+   ```
 
 3. Inicie o servidor:
   
-  ```bash
-  npm run start
-  ```
+   ```bash
+   npm run start
+   ```
 
