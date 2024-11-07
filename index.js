@@ -1,11 +1,10 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("db.json"); // Your database file
+const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-// Add custom middleware for CORS
 server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*"); // Allow any origin
+  res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Methods",
     "GET, POST, PUT, DELETE, PATCH, OPTIONS"
